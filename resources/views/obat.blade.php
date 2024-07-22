@@ -16,13 +16,10 @@
         <div class="links">
             <a href="{{ url('/') }}">Home</a>
             <a href="{{ url('/tentangstunting') }}">Tentang Stunting</a>
-            <a href="{{ url('/Obat') }}">Obat</a>
+            <a href="{{ url('/Obat') }}">Nutrisi</a>
             <a href="{{ url('/timkkn') }}">Tentang Kita</a>
         </div>
-        <div class="login">
-            <button class="signup">Register</button>
-            <button>Login</button>
-        </div>
+        
     </nav>
 
     <header>
@@ -33,7 +30,7 @@
                 <button type="submit" onclick="window.location.href='/selengkapnya'">Selengkapnya</button>
             </div>
         </div>
-        <img src="/img/header1.png">
+        <img src="/img/5sempurna.png">
     </header>
     <h2 class="separator">
         Suplemen Harian
@@ -41,20 +38,89 @@
 
     <div class="nft-shop">
         <div class="category">
-            <a href="#0-5" class="category-link" data-category="0-5">0-5 bulan</a>
             <a href="#6-11" class="category-link" data-category="6-11">6-11 bulan</a>
-            <a href="#1-3" class="category-link" data-category="1-3">1-3 bulan</a>
-            <a href="#4-6" class="category-link" data-category="4-6">4-6 bulan</a>
+            <a href="#1-3" class="category-link" data-category="1-3">1-3 tahun</a>
+            <a href="#4-6" class="category-link" data-category="4-6">4-6 tahun</a>
         </div>
 
         <div class="nft-list" id="products">
             
         </div>
     </div>
+    <h2 class="separator">
+        Tabel WHO
+    </h2>
 
-    <div class="view-more">
-        <button onclick="window.location.href='/Obat'">View More</button>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Kelompok Umur</th>
+                    <th>Berat Badan</th>
+                    <th>Tinggi Badan</th>
+                    <th>Protein</th>
+                    <th>Lemak</th>
+                    <th>Karbohidrat</th>
+                    <th>Serat</th>
+                    <th>Air</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>0-5 Bulan</td>
+                    <td>6</td>
+                    <td>60</td>
+                    <td>550</td>
+                    <td>9</td>
+                    <td>31</td>
+                    <td>59</td>
+                    <td>700</td>
+                    
+
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>6-11 Bulan</td>
+                    <td>9</td>
+                    <td>72</td>
+                    <td>800</td>
+                    <td>15</td>
+                    <td>35</td>
+                    <td>105</td>
+                    <td>900</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>1-3 Tahun</td>
+                    <td>13</td>
+                    <td>92</td>
+                    <td>1350</td>
+                    <td>20</td>
+                    <td>45</td>
+                    <td>215</td>
+                    <td>1150</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>4-6 Tahun</td>
+                    <td>19</td>
+                    <td>113</td>
+                    <td>1400</td>
+                    <td>25</td>
+                    <td>50</td>
+                    <td>220</td>
+                    <td>1450</td>
+                </tr>
+                
+            </tbody>
+        </table>
     </div>
+
+    
 
     <footer>
         <h3>Pusat Informasi, Edukasi & Pencegahan Stunting</h3>
@@ -62,7 +128,7 @@
             <div class="links">
             <a href="{{ url("/") }}">Home</a></li>
             <a href="{{ url("/tentangstunting") }}">Tentang Stunting</a></li>
-            <a href="{{ url("/Obat") }}">Obat</a></li>
+            <a href="{{ url("/Obat") }}">Nutrisi</a></li>
             <a href="{{ url("/timkkn") }}">Tentang Kita</a></li>
             </div>
             <div class="social">
@@ -78,100 +144,167 @@
         let products = {
             data: [
                 {
-                    productName: "Vitamin A",
-                    category: "0-5",
-                    price: "50000",
-                    image: "/img/vit1.png",
-                },
-                {
-                    productName: "Folate",
-                    category: "0-5",
-                    price: "50000",
-                    image: "/img/vit2.png",
-                },
-                {
-                    productName: "Vitamin B2",
-                    category: "0-5",
-                    price: "50000",
-                    image: "/img/vit3.png",
-                },
-                {
-                    productName: "Vitamin B1",
-                    category: "0-5",
-                    price: "50000",
-                    image: "/img/vit4.png",
-                },
-                {
-                    productName: "Vitamin B1",
+                    productName: "Protein",
                     category: "6-11",
-                    price: "75000",
-                    image: "/img/vit5.png",
+                    price: "15 gram",
+                    image: "/img/dada.png",
                 },
                 {
-                    productName: "Vitamin K",
+                    productName: "Protein",
                     category: "6-11",
-                    price: "75000",
-                    image: "/img/vit6.png",
+                    price: "15 gram",
+                    image: "/img/telur.png",
                 },
                 {
-                    productName: "Vitamin E",
+                    productName: "Protein",
                     category: "6-11",
-                    price: "75000",
-                    image: "/img/vit7.png",
+                    price: "15 gram",
+                    image: "/img/sapicincang.png",
                 },
                 {
-                    productName: "Vitamin C",
+                    productName: "Protein",
                     category: "6-11",
-                    price: "75000",
-                    image: "/img/vit8.png",
+                    price: "15 gram",
+                    image: "/img/ikan.png",
                 },
                 {
-                    productName: "Mangan",
+                    productName: "Lemak",
+                    category: "6-11",
+                    price: "35 gram",
+                    image: "/img/keju.png",
+                },
+                {
+                    productName: "Karbohidrat",
+                    category: "6-11",
+                    price: "105 gram",
+                    image: "/img/nasi.png",
+                },
+                {
+                    productName: "Serat",
+                    category: "6-11",
+                    price: "11 gram",
+                    image: "/img/sayur.png",
+                },
+                {
+                    productName: "Air",
+                    category: "6-11",
+                    price: "900 ml",
+                    image: "/img/air.png",
+                },
+                {
+                    productName: "Lemak",
+                    category: "6-11",
+                    price: "35 gram",
+                    image: "/img/santan.png",
+                },
+                
+                {
+                    productName: "Protein",
                     category: "1-3",
-                    price: "90000",
-                    image: "/img/mineral1.png",
+                    price: "20 gram",
+                    image: "/img/dada.png",
                 },
                 {
-                    productName: "Fosfor",
+                    productName: "Protein",
                     category: "1-3",
-                    price: "90000",
-                    image: "/img/mineral2.png",
+                    price: "20 gram",
+                    image: "/img/telur.png",
                 },
                 {
-                    productName: "Vitamin D3",
+                    productName: "Protein",
                     category: "1-3",
-                    price: "90000",
-                    image: "/img/mineral3.png",
+                    price: "20 gram",
+                    image: "/img/sapicincang.png",
                 },
                 {
-                    productName: "Magnesium",
+                    productName: "Protein",
                     category: "1-3",
-                    price: "90000",
-                    image: "/img/mineral4.png",
+                    price: "20 gram",
+                    image: "/img/ikan.png",
                 },
                 {
-                    productName: "Iron",
-                    category: "4-6",
-                    price: "80000",
-                    image: "/img/mineral5.png",
+                    productName: "Lemak",
+                    category: "1-3",
+                    price: "45 gram",
+                    image: "/img/keju.png",
                 },
                 {
-                    productName: "Selenium",
-                    category: "4-6",
-                    price: "80000",
-                    image: "/img/mineral6.png",
+                    productName: "Karbohidrat",
+                    category: "1-3",
+                    price: "215 gram",
+                    image: "/img/nasi.png",
                 },
                 {
-                    productName: "Mangan",
-                    category: "4-6",
-                    price: "80000",
-                    image: "/img/mineral1.png",
+                    productName: "Serat",
+                    category: "1-3",
+                    price: "19 gram",
+                    image: "/img/sayur.png",
                 },
                 {
-                    productName: "Fosfor",
+                    productName: "Air",
+                    category: "1-3",
+                    price: "1150 ml",
+                    image: "/img/air.png",
+                },
+                {
+                    productName: "Lemak",
+                    category: "1-3",
+                    price: "45 gram",
+                    image: "/img/santan.png",
+                },
+                {
+                    productName: "Protein",
                     category: "4-6",
-                    price: "80000",
-                    image: "/img/mineral2.png",
+                    price: "25 gram",
+                    image: "/img/dada.png",
+                },
+                {
+                    productName: "Protein",
+                    category: "4-6",
+                    price: "25 gram",
+                    image: "/img/telur.png",
+                },
+                {
+                    productName: "Protein",
+                    category: "4-6",
+                    price: "25 gram",
+                    image: "/img/sapicincang.png",
+                },
+                {
+                    productName: "Protein",
+                    category: "4-6",
+                    price: "25 gram",
+                    image: "/img/ikan.png",
+                },
+                {
+                    productName: "Lemak",
+                    category: "4-6",
+                    price: "50 gram",
+                    image: "/img/keju.png",
+                },
+                {
+                    productName: "Karbohidrat",
+                    category: "4-6",
+                    price: "220 gram",
+                    image: "/img/nasi.png",
+                },
+                {
+                    productName: "Serat",
+                    category: "4-6",
+                    price: "20 gram",
+                    image: "/img/sayur.png",
+                },
+                {
+                    productName: "Air",
+                    category: "4-6",
+                    price: "1450 ml",
+                    image: "/img/air.png",
+                },
+                {
+                    productName: "Lemak",
+                    category: "4-6",
+                    price: "50 gram",
+                    image: "/img/santan.png",
                 },
             ],
         };
@@ -192,14 +325,14 @@
             name.innerText = i.productName;
             container.appendChild(name);
             let price = document.createElement("p");
-            price.innerText = "Rp " + i.price;
+            price.innerText = i.price;
             container.appendChild(price);
             card.appendChild(container);
             let bid = document.createElement("div");
             bid.classList.add("bid");
             let link = document.createElement("a");
             link.href = "#";
-            link.innerText = "Beli disini";
+            
             bid.appendChild(link);
             card.appendChild(bid);
             document.getElementById("products").appendChild(card);
@@ -222,7 +355,11 @@
         // Initially display all products
         window.onload = () => {
             document.querySelectorAll(".item").forEach((item) => {
-                item.style.display = "block";
+                if (item.classList.contains("6-11")) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
             });
         };
     </script>

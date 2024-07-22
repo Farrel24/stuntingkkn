@@ -16,13 +16,10 @@
         <div class="links">
             <a href="{{ url("/") }}">Home</a></li>
             <a href="{{ url("/tentangstunting") }}">Tentang Stunting</a></li>
-            <a href="{{ url("/Obat") }}">Obat</a></li>
+            <a href="{{ url("/Obat") }}">Nutrisi</a></li>
             <a href="{{ url("/timkkn") }}">Tentang Kita</a></li>
         </div>
-        <div class="login">
-            <button class="signup">Register</button>
-            <button>Login</button>
-        </div>
+        
     </nav>
 
     <header>
@@ -49,10 +46,10 @@
         <h2>Pilih Jenis Kelamin</h2>
         <div class="gender-selection">
             <div class="gender-option" id="selectCowo">
-                <img src="/img/profile-1.png" alt="Cowo">
+                <img src="/img/cowo.png" alt="Cowo">
             </div>
             <div class="gender-option" id="selectCewe">
-                <img src="/img/profile-4.png" alt="Cewe">
+                <img src="/img/cewe2.png" alt="Cewe">
             </div>
         </div>
     </div>
@@ -184,89 +181,67 @@
     </h2>
 
     <div class="nft-shop">
-        <div class="category">
-            <a href="#0-5">0-5 bulan</a>
-            <a href="#6-11" id="show-6-11">6-11 bulan</a>
-            <a href="#">1-3 bulan</a>
-            <a href="#">4-6 bulan</a>
-        </div>
 
         <div class="nft-list" id ="0-5">
             <div class="item">
-                <img src="/img/vit1.png">
+                <img src="/img/dada.png">
                 <div class="info">
                     <div>
-                        <h5>Wellness</h5>
+                        <h5>Protein</h5>
                         <div class="btc">
                             
-                            <p>Rp 50.000</p>
+                            <p>15 gram</p>
                         </div>
                     </div>
                     
                 </div>
                 <div class="bid">
                     
-                    <a href="#">Beli disini</a>
+                    
                 </div>
             </div>
             <div class="item">
-                <img src="/img/vit2.png">
+                <img src="/img/sayur.png">
                 <div class="info">
                     <div>
-                        <h5>Wellness</h5>
+                        <h5>Serat</h5>
                         <div class="btc">
                             
-                            <p class="harga">Rp 50.000</p>
+                            <p class="harga">15 gram</p>
                         </div>
                     </div>
                     
                 </div>
                 <div class="bid">
                     
-                    <a href="#">Beli disini</a>
+                    
                 </div>
             </div>
             <div class="item">
-                <img src="/img/vit3.png">
+                <img src="/img/telur.png">
                 <div class="info">
                     <div>
-                        <h5>Wellness</h5>
+                        <h5>Telur</h5>
                         <div class="btc">
                             
-                            <p>Rp 50.000</p>
+                            <p>15 gram</p>
                         </div>
                     </div>
                     
                 </div>
                 <div class="bid">
                     
-                    <a href="#">Beli disini</a>
-                </div>
-            </div>
-            <div class="item">
-                <img src="/img/vit4.png">
-                <div class="info">
-                    <div>
-                        <h5>Wellness</h5>
-                        <div class="btc">
-                            
-                            <p>Rp 50.000</p>
-                        </div>
-                    </div>
                     
                 </div>
-                <div class="bid">
-                    
-                    <a href="#">Beli disini</a>
-                </div>
             </div>
+            
         </div>
 
         
 
     </div>
 
-    <div class="view-more">
+    <div class="view-more1">
         <button onclick="window.location.href='/Obat'">View More</button>
     </div>
 
@@ -274,35 +249,52 @@
         Our Team
     </h2>
 
-    <div class="sellers">
-        <div class="item">
-            <img src="/img/profile-1.png">
-            <div class="info">
-                <h4>Farrel Belva</h4>
+    <div class="home-container">
+        <div class="profile-card1">
+            <div class="img">
+                <img src="img/irwan.jpg">
+            </div>
+            <div class="caption">
+                <h3>Belva</h3>
                 <p>Teknik Komputer</p>
+                <div class="social-links">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
             </div>
         </div>
-        <div class="item">
-            <img src="/img/profile-2.png">
-            <div class="info">
-                <h4>Nasywa </h4>
-                <p>Kesehatan masyarakat</p>
+        <div class="profile-card1">
+            <div class="img">
+                <img src="img/siti.jpg">
             </div>
-        </div>
-        <div class="item">
-            <img src="/img/profile-3.png">
-            <div class="info">
-                <h4>Vani</h4>
-                <p>Biologi</p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="/img/profile-4.png">
-            <div class="info">
-                <h4>Rara</h4>
+            <div class="caption">
+                <h3>Rara</h3>
                 <p>Kedokteran</p>
+                <div class="social-links">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
             </div>
         </div>
+        <div class="profile-card1">
+            <div class="img">
+                <img src="img/evanthe.jpg">
+            </div>
+            <div class="caption">
+                <h3>Nasywa</h3>
+                <p>Kesehatan masyarakat</p>
+                <div class="social-links">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="view-more">
+        <button onclick="window.location.href='/timkkn'">View More</button>
     </div>
 
     <footer>
@@ -311,7 +303,7 @@
             <div class="links">
             <a href="{{ url("/") }}">Home</a></li>
             <a href="{{ url("/tentangstunting") }}">Tentang Stunting</a></li>
-            <a href="{{ url("/Obat") }}">Obat</a></li>
+            <a href="{{ url("/Obat") }}">Nutrisi</a></li>
             <a href="{{ url("/timkkn") }}">Tentang Kita</a></li>
             </div>
             <div class="social">

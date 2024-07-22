@@ -16,12 +16,8 @@
         <div class="links">
             <a href="{{ url("/") }}">Home</a></li>
             <a href="{{ url("/tentangstunting") }}">Tentang Stunting</a></li>
-            <a href="{{ url("/Obat") }}">Obat</a></li>
+            <a href="{{ url("/Obat") }}">Nutrisi</a></li>
             <a href="{{ url("/timkkn") }}">Tentang Kita</a></li>
-        </div>
-        <div class="login">
-            <button class="signup">Register</button>
-            <button>Login</button>
         </div>
     </nav>
 
@@ -32,7 +28,7 @@
    
             </p>
         </div>
-        <img src="/img/header1.png">
+        <img src="/img/cahstunting.png">
     </header>
     
     <header>
@@ -44,14 +40,12 @@
     </header>
 
     <header>
-        <img src="/img/header1.png" class="faktor1-image">
+        <img src="/img/rumah.png" class="faktor1-image">
         <div class="left-2">
             <h1>Faktor <span>Lingkungan</span></h1>
-            <p>1.Hygiene sanitasi lingkungan tempat tinggal, sarana pembuangan air limbah dan pengelolaan sampah yang buruk dapat mempercepat pertumbuhan kuman 
-                dan bakteri penyebab beberapa penyakit
-
-            </p>
-            <p>2.Kebersihan dalam penyiapan dan penyimpanan makanan perlu diperhatikan loohh
+            <p>
+                Hygiene sanitasi lingkungan tempat tinggal, sarana pembuangan air limbah dan pengelolaan sampah yang buruk dapat mempercepat pertumbuhan kuman 
+                dan bakteri penyebab beberapa penyakit. Kebersihan dalam penyiapan dan penyimpanan makanan perlu diperhatikan loohh.
             </p>
            
         </div>
@@ -60,28 +54,31 @@
     <header>
         <div class="left-3">
             <h1>Faktor <span>Perilaku</span></h1>
-            <p>Ayah bunda… putra putri kalian tidak bisa tumbuh berkembang dengan sendirinya. Mereka perlu bantuan dan bimbingan kalian, jadilah orang tua yang cerdas dengan tidak malas untuk mencari tahu hal yang bisa menyebabkan stunting. Misalnya hal-hal di bawah ini
-                ASI eksklusif (WAJIB selama 6 bulan tanpa adanya makanan minuman lain) 
+            <p>
+                Ayah bunda… putra putri kalian tidak bisa tumbuh berkembang dengan sendirinya. Mereka perlu bantuan dan bimbingan kalian, jadilah orang tua yang cerdas dengan tidak malas untuk mencari tahu hal yang bisa menyebabkan stunting. Misalnya hal-hal di bawah ini:
+            </p>
+            <p>
+                ASI eksklusif (WAJIB selama 6 bulan tanpa adanya makanan minuman lain)
                 MPASI tepat umur dan jenjang tekstur
                 PMT (ssstttt.. ini GRATIS loh, bagi balita yang membutuhkan)
                 Cara menjaga kebersihan bahan makanan dan cara mengolahnya
                 Imunisasi dasar lengkap
                 Kebersihan diri sebelum berinteraksi dengan anak
-
-   
             </p>
         </div>
-        <img src="/img/header1.png" class="faktor2-image">
+        <img src="/img/ibumenyusui.png" class="faktor3-image">
     </header>
 
     <header>
-        <img src="/img/header1.png" class="faktor1-image">
+        <img src="/img/apabeeeee.png" class="faktor7-image">
         <div class="left-2">
             <h1>Faktor  <span>Demografi</span></h1>
-            <p>Meskipun faktor ini tidak berhubungan langsung, tapi tetap perlu dicegah untuk mengurangi potensi anak terkena stunting yaa ayah bunda
-                Jenis pekerjaan seperti petani, buruh pabrik, pekerja kasar dan beberapa pekerjaan lainnya dengan paparan bahan kimia, pestisida, dan debu secara tidak langsung menjadi penyebab stunting
-                Tingkat pengetahuan dan ekonomi orang tua. Ah masa sih ini berpengaruh? Zaman dulu saya sehat-sehat aja padahal… Ayah bunda, perlu diingat bila zaman berkembang dan lingkungan juga berubah, sehingga penyebab penyakit mengalami perkembangan menjadi lebih banyak dan ganas
-                
+            <p>
+                Meskipun faktor ini tidak berhubungan langsung, tapi tetap perlu dicegah untuk mengurangi potensi anak terkena stunting yaa ayah bunda.
+                Jenis pekerjaan seperti petani, buruh pabrik, pekerja kasar dan beberapa pekerjaan lainnya dengan paparan bahan kimia, pestisida, dan debu secara tidak langsung menjadi penyebab stunting.
+            </p>
+            <p>
+                Tingkat pengetahuan dan ekonomi orang tua. Ah masa sih ini berpengaruh? Zaman dulu saya sehat-sehat aja padahal… Ayah bunda, perlu diingat bila zaman berkembang dan lingkungan juga berubah, sehingga penyebab penyakit mengalami perkembangan menjadi lebih banyak dan ganas.
             </p>
             
            
@@ -96,22 +93,15 @@
    
             </p>
         </div>
-        <img src="/img/header1.png" class="faktor2-image">
+        <img src="/img/apajah.png" class="faktor2-image">
     </header>
-
-    
-
-
-
-    
-
     <footer>
         <h3>Pusat Informasi, Edukasi & Pencegahan Stunting</h3>
         <div class="right">
             <div class="links">
             <a href="{{ url("/") }}">Home</a></li>
             <a href="{{ url("/tentangstunting") }}">Tentang Stunting</a></li>
-            <a href="{{ url("/Obat") }}">Obat</a></li>
+            <a href="{{ url("/Obat") }}">Nutrisi</a></li>
             <a href="{{ url("/timkkn") }}">Tentang Kita</a></li>
             </div>
             <div class="social">

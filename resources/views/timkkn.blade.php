@@ -16,13 +16,10 @@
         <div class="links">
             <a href="{{ url('/') }}">Home</a>
             <a href="{{ url('/tentangstunting') }}">Tentang Stunting</a>
-            <a href="{{ url('/Obat') }}">Obat</a>
+            <a href="{{ url('/Obat') }}">Nutrisi</a>
             <a href="{{ url('/timkkn') }}">Tentang Kita</a>
         </div>
-        <div class="login">
-            <button class="signup">Register</button>
-            <button>Login</button>
-        </div>
+        
     </nav>
 
     <header>
@@ -38,7 +35,7 @@
             
            
         </div>
-        <img src="/img/header1.png">
+        <img src="/img/teamaing.png">
     </header>
 
     <header>
@@ -52,7 +49,7 @@
     <div class="home-container">
         <div class="profile-card">
             <div class="img">
-                <img src="img/profile-3.png">
+                <img src="img/irwan.jpg">
             </div>
             <div class="caption">
                 <h3>Belva</h3>
@@ -66,7 +63,7 @@
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="img/profile-4.png">
+                <img src="img/siti.jpg">
             </div>
             <div class="caption">
                 <h3>Rara</h3>
@@ -80,7 +77,7 @@
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="img/profile-2.png">
+                <img src="img/evanthe.jpg">
             </div>
             <div class="caption">
                 <h3>Nasywa</h3>
@@ -100,7 +97,7 @@
             <div class="links">
             <a href="{{ url("/") }}">Home</a></li>
             <a href="{{ url("/tentangstunting") }}">Tentang Stunting</a></li>
-            <a href="{{ url("/Obat") }}">Obat</a></li>
+            <a href="{{ url("/Obat") }}">Nutrisi</a></li>
             <a href="{{ url("/timkkn") }}">Tentang Kita</a></li>
             </div>
             <div class="social">
